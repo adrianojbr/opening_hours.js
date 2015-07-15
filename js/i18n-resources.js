@@ -539,7 +539,7 @@ var resources = { // English is fallback language.
                 "all n entries": 'Todos os __total__ resultados:',
                 "the first entries": 'Os primeiros __number__ de __total__ resultados:',
                 "load all with JOSM": 'Carregar tudo no JOSM',
-                "evaluation tool": 'Derramenta de avaliação',
+                "evaluation tool": 'Ferramenta de avaliação',
             },
             "words": {
                 "mode": "Modo de avaliação",
