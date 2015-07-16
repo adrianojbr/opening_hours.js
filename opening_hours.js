@@ -18,6 +18,21 @@
 	 * :%s/\[\zs\([^ ]\)/ \1/e | %s/\([^ ]\)\]/\1 \]/e | %s/,\([^ ]\)/, \1/e
 	 */
 	var holidays = {
+		'br': { // {{{
+			'PH': { // https://pt.wikipedia.org/wiki/Feriados_no_Brasil
+				"Ano Novo"                              : [  1,  1 ],
+				"Carnaval"                              : [  'easter', -47 ],
+				"Sexta-feira santa"                     : [  'easter',  -2 ],
+				"Tiradentes"                            : [  4, 21 ],
+				"Dia do Trabalhador"                    : [  5,  1 ],
+				"Corpus Christi"                        : [  'easter',  60 ],
+				"Independência"                         : [  9,  7 ],
+				"Nossa Senhora Aparecida"               : [ 10, 12 ],
+				"Finados"                               : [ 11,  2 ],
+				"Proclamação da República"              : [ 11, 15 ],
+				"Natal"                                 : [ 12, 25 ],
+			}
+		}, // }}}
 		'fr': { // {{{
 			'PH': { // http://fr.wikipedia.org/wiki/F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s_en_France
 				"Jour de l'an"                          : [  1,  1 ],
